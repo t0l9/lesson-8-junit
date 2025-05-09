@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 
-public class UnitjugglerTests{
+public class AnotherParametrizedTests {
 
     @CsvSource(value = {
             "1, 0.39370078740157",
@@ -32,8 +32,8 @@ public class UnitjugglerTests{
 
 
     @CsvFileSource(resources = "/testdata/newfile.csv")
-    @ParameterizedTest
     @Tag("WEB")
+    @ParameterizedTest()
     void loveRadioHeaderNavMenuTest(String menuItem, String menuItemValue){
         open("https://www.loveradio.ru/");
         $$(".header-nav__menu-item").findBy(text(menuItem)).hover();
