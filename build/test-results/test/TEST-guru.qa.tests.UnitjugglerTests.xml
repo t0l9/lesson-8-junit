@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.tests.UnitjugglerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-05-09T11:45:28" hostname="Air-Anatolij" time="7.97">
+  <properties/>
+  <testcase name="[1] Love Radio, Ведущие" classname="guru.qa.tests.UnitjugglerTests" time="6.58"/>
+  <testcase name="[2] Love News, Горячие новости" classname="guru.qa.tests.UnitjugglerTests" time="1.389"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+мая 09, 2025 4:45:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 136, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 136
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.8.1 / Selenium 4.30.0 / chrome 136.0.7103.93 mac
+]]></system-err>
+</testsuite>
